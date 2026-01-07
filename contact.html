@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Dawn Archive</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="page-wrapper">
+        <header class="banner-frame">
+            <img src="img/ml.jpg" alt="Hero Game" class="banner-img">
+        </header>
+        
+        <br>
+        <div class="content-header-meta">
+            <div class="hp-style-clock">
+                <div class="date-row"><span id="date-text">Memuat...</span></div>
+                <div class="time-row">
+                    <span id="clock-text">00:00:00</span>
+                    <span class="am-pm">WIB</span>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="brand"><span class="gold-text">DAWN</span>.ARCHIVE</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <section class="content-body animate-up">
+                <h1 class="classic-title">Get In <br><em>Touch With Us</em></h1>
+                <div class="ornament"></div>
+                
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p>Punya pertanyaan tentang lore atau ingin berkontribusi dalam pengarsipan? Hubungi kami melalui saluran di bawah ini.</p>
+                        
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-text">dawnarchive@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Address:</span>
+                            <span class="info-text">Universitas Pamulang, Tangerang Selatan</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Discord:</span>
+                            <span class="info-text">DawnArchive1234</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form action="contact.html" method="GET" class="styled-form" onsubmit="alert('Pesan Anda telah terkirim ke Dawn Archive!')">
+                    <div class="input-group">
+                      <label>Full Name</label>
+                    <input type="text" name="nama" placeholder="Masukkan nama lengkap" required>
+                    </div>
+    
+                    <div class="input-group">
+                    <label>Email Address</label>
+                    <input type="email" name="email" placeholder="Masukkan Email Anda" required>
+                    </div>
+
+                    <div class="input-group">
+                    <label>Message</label>
+                    <textarea name="pesan" rows="5" placeholder="Tuliskan pesan Anda di sini" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-send">Send Message</button>
+                    </form>
+                    </div>
+                    </div>
+            </section>
+        </main>
+
+        <footer class="footer-container">
+            <div class="footer-info">
+                <p class="f-name">Marsya Rahma Faliza</p>
+                <p class="f-detail">251011700046 | 01SIFP001</p>
+            </div>
+            <div class="f-copyright">
+                <p>&copy; 2026 Sistem Informasi - Universitas Pamulang</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
